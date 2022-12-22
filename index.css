@@ -1,0 +1,23 @@
+.left {
+    display:block;
+    text-align: center;
+    border: 1px solid black;
+}
+#main {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    max-width: 1000px;
+}
+img {
+    width: 180px;
+     transition: all;
+     
+}
+img:hover{
+   opacity: 0.6;
+   width: 90px;
+}
+a:hover{
+    color: red;
+}

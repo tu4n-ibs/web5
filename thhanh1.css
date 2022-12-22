@@ -1,0 +1,18 @@
+.main{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-row-gap:30px ;
+    grid-column-gap:20px;
+    background-color: rgb(29, 136, 228);
+    padding: 30px;
+}
+.main > div {
+    background-color: rgb(235, 19, 19);
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+.item1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
